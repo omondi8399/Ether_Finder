@@ -1,0 +1,118 @@
+@import url('http://fonts.googleapis.com/css2?family=Montserrat')
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right
+    top, #2d0036, #4f015b, #730283, #9a02ac);
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+h3{
+    margin: 10px 0;
+}
+h6{
+    margin: 5px 0;
+}
+
+p{
+    font-size: 14px;
+    line-height: 21px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.card-container{
+    background-color: #231e23;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    color: #b3b8cd;
+    padding: 30px 0 0;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 1.3rem;
+}
+
+.card-container .pro {
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.card-container .tick{
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 2px 5px;
+    top: 30px;
+    left: 30px;
+    margin-left: .3rem;
+}
+
+.buttons .primary{
+    background-color: #c400d7;
+    border: 1px solid #c400d7;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.buttons .primary .ghost{
+    background-color: transparent;
+    color: #c400d7;
+}
+
+.skills{
+    background-color: #1f1a36;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.skills ul li{
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+
+.message{
+    position: absolute;
+    top: -120px;
+    margin-left: 0;
+    background-color: #1f1a36;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+}
